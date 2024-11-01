@@ -1,0 +1,59 @@
+@font-face{
+    font-family:'FontAwesome';
+    src:url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+    url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+    url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+    url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+    url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+}
+.fa-bell:before{content:"\f0f3"}
+.green-notify,.red-notify,.blue-notify,.orang-notify,.black-notify,.black-notify{
+    float: right;
+    width: 100%;
+    margin: .5em 0;
+    padding:1em ;
+    border-radius: 2px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.green-notify p,.red-notify p,.blue-notify p,.orang-notify p,.black-notify p{
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    display: inline-block;
+}
+.green-notify:before,.red-notify:before,.blue-notify:before,.orang-notify:before,.black-notify:before{
+    content: '\f0f3';
+    font-family: FontAwesome;
+    margin: 0 5px;
+}
+.green-notify{
+    background-color: #2c873b;
+}
+.green-notify:before{
+    color: #1c5526;
+}
+.red-notify{
+    background-color: #e74c3c;
+}
+.red-notify:before{
+    color: #b53c2c;
+}
+.blue-notify{
+    background-color: #005a8c;
+}
+.blue-notify:before{
+    color: #00395b;
+}
+.orang-notify{
+    background-color: #f88300;
+}
+.orang-notify:before{
+    color: #c26600;
+}
+.black-notify{
+    background-color: #1d1d1d;
+}
+.black-notify:before{
+    color: black;
+}
